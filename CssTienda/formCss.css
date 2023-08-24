@@ -1,0 +1,41 @@
+
+
+body{
+    margin: auto;
+    max-width: auto;
+    font-family: 'lato';
+    background-color: rgb(201, 198, 198);
+    
+}
+header{
+
+    display: flex;
+    flex: 0.8;
+    justify-content: space-between;
+    padding : 2%;
+    background-color: rgb(158, 82, 82);
+}
+.formulario{ 
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    padding-left: 30px; 
+    padding-top: 20px;
+}
+
+.iniciar-sesion{
+   border-radius: 10px;
+   padding: 50px 40px;
+   background-color: rgb(122, 130, 138);
+}
+.iniciar-sesion fieldset{
+   padding-top: 50px;
+}
+
+.crear-cuenta{
+   border-radius: 10px;
+   padding: 50px 40px;
+   background-color: rgb(122, 130, 138);
+}.crear-cuenta button{
+    cursor: pointer;
+}
